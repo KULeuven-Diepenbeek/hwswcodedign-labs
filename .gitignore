@@ -2,4 +2,5 @@
 *.elf
 *.objdump
 *.map
-**build*
+**build*.o
+!**build/.gitkeep
