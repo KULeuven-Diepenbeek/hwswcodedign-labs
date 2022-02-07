@@ -4,4 +4,4 @@ This folder contains boilerplate code for your assignments. Please make sure you
 
 ### Assignment 1
 
-There is only 1 single C-file that needs to be submitted: (assignment1_yourname.c)[assignment1_yourname.c]
+There is only 1 single C-file that needs to be submitted: [assignment1_yourname.c](assignment1_yourname.c)
