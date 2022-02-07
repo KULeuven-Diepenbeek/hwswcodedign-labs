@@ -1,7 +1,5 @@
   .section .init
   .global main
-  /*.global hard_div*/
-  .global esns_nop
 
 start:
   /* zero-initialize all registers */
@@ -46,7 +44,3 @@ start:
 
   /* break - trap */
   ebreak
-
-esns_nop:
-  ADDI x0, x0, 0
-  ret
