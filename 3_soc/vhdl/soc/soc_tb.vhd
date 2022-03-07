@@ -90,7 +90,7 @@ begin
         generic map (
             G_BASE_ADDRESS => C_BASE_ADDRESS_0,
             G_HIGH_ADDRESS => C_HIGH_ADDRESS_0,
-            FNAME_HEX => "/home/jvliegen/vc/github/KULeuven-Diepenbeek/hwswcodedign-course/src/999_paper/firmware/firmware.hex"
+            FNAME_HEX => "/home/jvliegen/vc/github/KULeuven-Diepenbeek/hwswcodesign-labs/3_soc/firmware/firmware.hex"
         ) port map (
             resetn => resetn_i,
             clock => clock_i,

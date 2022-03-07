@@ -166,16 +166,16 @@ package PKG_hwswcodesign is
         port (
             PCLK : IN STD_LOGIC;
             PRESETn : IN STD_LOGIC;
-            -- PADDR_mem : OUT STD_LOGIC_VECTOR(C_DATA_WIDTH-1 downto 0);
-            -- PPROT_mem : OUT STD_LOGIC_VECTOR(C_PROT_WIDTH-1 downto 0);
-            -- PSELx_mem : OUT STD_LOGIC;
-            -- PENABLE_mem : OUT STD_LOGIC;
-            -- PWRITE_mem : OUT STD_LOGIC;
-            -- PWDATA_mem : OUT STD_LOGIC_VECTOR(C_DATA_WIDTH-1 downto 0);
-            -- PSTRB_mem : OUT STD_LOGIC_VECTOR(C_STRB_WIDTH-1 downto 0);
-            -- PREADY_mem : IN STD_LOGIC;
-            -- PRDATA_mem : IN STD_LOGIC_VECTOR(C_DATA_WIDTH-1 downto 0);
-            -- PSLVERR_mem : IN STD_LOGIC;
+            PADDR_mem : OUT STD_LOGIC_VECTOR(C_DATA_WIDTH-1 downto 0);
+            PPROT_mem : OUT STD_LOGIC_VECTOR(C_PROT_WIDTH-1 downto 0);
+            PSELx_mem : OUT STD_LOGIC;
+            PENABLE_mem : OUT STD_LOGIC;
+            PWRITE_mem : OUT STD_LOGIC;
+            PWDATA_mem : OUT STD_LOGIC_VECTOR(C_DATA_WIDTH-1 downto 0);
+            PSTRB_mem : OUT STD_LOGIC_VECTOR(C_STRB_WIDTH-1 downto 0);
+            PREADY_mem : IN STD_LOGIC;
+            PRDATA_mem : IN STD_LOGIC_VECTOR(C_DATA_WIDTH-1 downto 0);
+            PSLVERR_mem : IN STD_LOGIC;
             PADDR_print : OUT STD_LOGIC_VECTOR(C_DATA_WIDTH-1 downto 0);
             PPROT_print : OUT STD_LOGIC_VECTOR(C_PROT_WIDTH-1 downto 0);
             PSELx_print : OUT STD_LOGIC;
