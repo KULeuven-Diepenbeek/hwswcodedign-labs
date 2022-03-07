@@ -1,1 +1,3 @@
 # hwswcodedign-labs
+
+![](soc.png)
