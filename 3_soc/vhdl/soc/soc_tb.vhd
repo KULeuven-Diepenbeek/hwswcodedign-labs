@@ -112,7 +112,7 @@ begin
     APB_print_inst00: component APB_print generic map(
             G_BASE_ADDRESS => C_BASE_ADDRESS_1,
             G_HIGH_ADDRESS => C_HIGH_ADDRESS_1,
-            FNAME_OUT => "/home/jvliegen/vc/github/KULeuven-Diepenbeek/hwswcodedign-course/src/999_paper/firmware/simulation_output.txt"
+            FNAME_OUT => "/home/jvliegen/vc/github/KULeuven-Diepenbeek/hwswcodesign-labs/3_soc/firmware/simulation_output.txt"
         ) port map (
             resetn => resetn_i,
             clock => clock_i,
