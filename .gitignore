@@ -4,3 +4,5 @@
 *.map
 **build*.o
 !**build/.gitkeep
+
+3_soc/firmware/simulation_output.txt
