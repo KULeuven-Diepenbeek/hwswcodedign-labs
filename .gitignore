@@ -2,7 +2,7 @@
 *.elf
 *.objdump
 *.map
-**build*.o
+*.o
 !**build/.gitkeep
 
 3_soc/firmware/simulation_output.txt
